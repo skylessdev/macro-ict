@@ -1,0 +1,20 @@
+
+sessions:
+  london:
+    start: "08:00"
+    end:   "10:00"
+  ny_killzone:
+    start: "14:30"
+    end:   "17:00"
+
+macro_weights:
+  dxy_chg: -1.0
+  yield_chg: -0.8
+  vix_chg: -0.7
+  gamma_level: 0.6
+
+backtest:
+  risk_per_trade: 1.0
+  stop_atr_mult: 0.7
+  target_r_multiple: 2.0
+  daily_flat: true
